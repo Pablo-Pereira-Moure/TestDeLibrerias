@@ -11,13 +11,13 @@ public class Main {
         InterfaceMetodosComunes salidaVentana;
         InterfaceMetodosComunes salidaImpresora;
 
-        miSalida = FactoriaDeSalidas.getProducto(FactoriaDeSalidas.CONSOLA,"Hola desde la fabrica")
+        miSalida = FactoriaDeSalidas.getProducto(FactoriaDeSalidas.CONSOLA,"Hola desde la fabrica");
         miSalida.visualiza();
 
-        salidaVentana = FactoriaDeSalidas.getProducto(FactoriaDeSalidas.VENTANA,"Hola desde la fabrica")
+        salidaVentana = FactoriaDeSalidas.getProducto(FactoriaDeSalidas.VENTANA,"Hola desde la fabrica");
         salidaVentana.visualiza();
 
-        salidaImpresora = FactoriaDeSalidas.getProducto (FactoriaDeSalidas.IMPRESORA,"Hola desde la fabrica")
+        salidaImpresora = FactoriaDeSalidas.getProducto (FactoriaDeSalidas.IMPRESORA,"Hola desde la fabrica");
         salidaImpresora.visualiza();
 
 
